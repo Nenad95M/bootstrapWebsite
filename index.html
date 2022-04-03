@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naslov</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+
 </head>
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
 <a href="" class="navbar-brand">Logo</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -25,7 +29,7 @@
             <a class="nav-link" href="">Dva</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Tri</a>
+            <a class="nav-link" href="#learn">Tri</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="">Cetiri</a>
@@ -38,7 +42,294 @@
 
 </div>
 </nav>
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start py-3">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between align-items-center">
+                <div class="">
+                <h1>Naslov neki <span class="text-warning"> bla bla</span></h1>
+                <p class="lead my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque sed illo voluptates, mollitia dicta et, aperiam nobis, asperiores facere minus inventore consectetur impedit labore doloremque.</p>
+            <button class="btn btn-warning .btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Klikni za vise informacija</button> 
+            </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/image/driver.jpg" alt="Driving">
+            </div>
+        </div>
+    </section>
+<!-- Newsletter -->
+
+<section class="bg-primary text-light p-5">
+<div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Our newsletter</h3>
+        <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Recipient username" aria-label="Recipient username" aria-describedby="button-addon2">
+            <button class="btn btn-dark btn-lg" id="button-addon2">Submit</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Boxes -->
+<section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+          <!-- Prva kutija -->
+          <div class="col-md ">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="card-title mb-3">
+                Virtual
+            </h3>
+            <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ex.
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Druga kutija -->
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+                <div class="card-body text-center">
+                <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="card-title mb-3">
+                Virtual
+            </h3>
+            <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ex.
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Treca kutija -->
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="card-title mb-3">
+                Virtual
+            </h3>
+            <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ex.
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+        <!-- Learn Section -->
+<section id="learn" class="p-5">
+    <div class="container">
+    <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+            <img class="img-fluid" src="/image/driver.jpg" alt="slika">
+        </div>
+        <div class="col-md p-5">
+            <h2>Learn Fundamentals</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero, corporis nesciunt facilis molestiae reiciendis.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium expedita at sapiente delectus eligendi, ratione aperiam ipsam sed? Amet veritatis quo placeat vitae nobis excepturi aut, ut officia aliquam dicta.</p>
+       <a href="#" class="btn btn-light mt-3">
+        <i class="bi bi-chevron-right"></i>Read more</a>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section id="learn" class="p-5 bg-dark  text-light">
+    <div class="container">
+    <div class="row align-items-center justify-content-between">
+   
+        <div class="col-md p-5">
+            <h2>Learn Fundamentals</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero, corporis nesciunt facilis molestiae reiciendis.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium expedita at sapiente delectus eligendi, ratione aperiam ipsam sed? Amet veritatis quo placeat vitae nobis excepturi aut, ut officia aliquam dicta.</p>
+       <a href="#" class="btn btn-light mt-3">
+        <i class="bi bi-chevron-right"></i>Read more</a>
+        </div>
+        <div class="col-md">
+            <img class="img-fluid" src="/image/driver.jpg" alt="slika">
+        </div>
+    </div>
+
+    </div>
+</section>
+<!-- FRAQ -->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently asked questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- Pitanje 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     Prvo pitanje
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <!-- Pitanje 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Drugo pitanje                    
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <!-- Pitanje 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Drugo pitanje                   
+                        </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+    </div>
+</section>
+<!-- Osoblje -->
+<section id="workers" class="p-5 bg-primary">
+    <h2 class="text-center text-white">
+        Our Staff
+    </h2>
+    <p class="lead text-center text-white mb-5">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolores laudantium minima unde necessitatibus similique amet odit aliquid? Sit, cumque?
+    </p>
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/men/11.jpg" alt="osoba">
+                    <h3 class="card-title mb-3">Neki lik</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nobis?</p>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+             
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/women/6.jpg" alt="osoba">
+                    <h3 class="card-title mb-3">Neka zena</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nobis?</p>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/women/11.jpg" alt="osoba">
+                    <h3 class="card-title mb-3">Neka zena</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nobis?</p>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+             
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/men/9.jpg" alt="osoba">
+                    <h3 class="card-title mb-3">Neki lik</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nobis?</p>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact and map -->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4">Contact Info</h2>
+              <ul class="list-group list-group-flush lead">
+                  <li class="list-group-item">
+                      <span class="fw-bold">Main Location:</span> Brace Srejovic 15, Kragujevac
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Phone</span> 034-380-722
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Email</span> neko@gmail.com
+                  </li>
+
+              </ul>
+            </div>
+            <div class="col-md">
+            <div id="map"></div>
+        </div>
+        </div>
+    </div>
+</section>
+<footer class="p-3 bg-dark text-white text-center">
+    <div class="container">
+        <p class="lead">Copyright &copy; <span id="year"></span> kompanija</p>
+    </div>
+</footer>
+
+<!-- Showcase modal -->
+<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="enrollModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Trazite nas na Gugulu</p>
+          <form action="https://www.google.com/search?q=">
+              
+        <input class="form-control" autocomplete="off" autofocus="" name="q" type="text">
+        <button class="btn btn-secondary" type="submit">Trazi</button>
     
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script src="js/app.js"></script>
 </body>
 </html>
